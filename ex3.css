@@ -1,0 +1,22 @@
+.container {
+    width: 500px;
+    margin: 20px auto;
+  }
+body{
+    background-color:lightblue;
+    color: white;
+    font-family: arial;
+    font-size: 15pt;
+}
+a {
+    background-color: pink;
+    color:white;
+}
+a:hover {
+    background-color: white;
+    color: pink;
+}
+
+body.halloween{
+    color: orange
+}

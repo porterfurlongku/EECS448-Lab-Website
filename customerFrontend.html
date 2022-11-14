@@ -1,0 +1,29 @@
+<html> 
+    <head> 
+        <h1>Welcome to the petstore!</h1>
+        <link rel="stylesheet" href="customerstyle.css">
+    </head> 
+<body> 
+    <script src="formChecker.js"></script>
+    <form name="myform" method="post" onsubmit="return form()" action="customerBackend.php"> 
+        Username: <input type="text" name="username"><br> 
+        Password: <input type="password" name="password"><br> 
+        <h2>What would you like to buy</h2>
+        Dog - $50 <input type="number" name="dog"><Br>
+        <br>
+        Cat - $35 <input type="number" name="cat"><br>
+        <br>
+        Hamster - $10 <input type="number" name="hamster"><br>
+        <br>
+        <h3>What shipping method?</h3>
+       Free 7 day <input type="radio" name="ship" id="Free-7-Day" value="Free-7-Day" checked="checked">
+       <br>
+       $50.00 overnnight <input type="radio" name="ship" id="Overnight" value="Overnight">
+       <br>
+       $5.00 three day <input type="radio" name="ship" id="Three-day" value="Three-day">
+       <br>
+       <input type="reset">
+        <input type="submit" name="upload2"> 
+    </form> 
+</body> 
+</html> 
